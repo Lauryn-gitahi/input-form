@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add-btn{
+    /* align-items: center; */
+    margin: 20px 30%;
+    /* border: 1px solid black; */
+}
+
+#btn1{
+    width: 30%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background: tomato;
+}
+
+#btn1:hover{
+    background: turquoise;
+}
+
+#myModal{
+    display: none;
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+.modal-header .h2{
+/* color: blue; */
+margin: auto auto;
+}
+
+.close{
+    color: black;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(16, 17, 95);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+form label{
+text-align: center;
+font-size: 20px;
+}
+
+form input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom:1px solid black ;
+   padding: 10px 20px;
+   font-size: 20px;
+}
+
+#btn{
+    width: 10%;
+    height: 50%;
+    background-color: rgb(55, 53, 187);
+    color: white;
+     margin-left: 20%;
+     margin-top: 20px;
+}
+
+.books{
+    display: flex;
+    margin: 20px 100px;
+   
+}
+
+.book1, .book2{
+   width: 190px;
+    height: 275px;
+    /* border: 1px solid black; */
+    margin: 20px 20px;
+    background: rgb(138, 138, 141);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <title>The library</title>
+</head>
+<body>
+
+    <div class="add-btn">
+    <button id="btn1">Add book</button>
+</div>
+    <div id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="h2">Add book to library</h2>
+                <span class="close">&times</span>
+            </div>
+
+            <div class="modal-body">
+                <form action="">
+                <label for="book title">Book title:</label>
+                    <input type="text" class="book-title" id="input">
+                
+                <label for="book title">Book author: </label>
+                    <input type="text" class="book-author" id="input">
+               
+                <label for="book title">Book pages: </label>
+                    <input type="number" class="book-pages" id="input">
+               
+                <label for="book title">Book status: </label>
+                    <input type="number" class="book-status" id="input">
+
+                    <button id="btn1"> submit</button>
+               
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="booklist">
+        <!-- <input type="file" id="fileid" hidden/>
+        <input type="button" id="btn" value="upload file"/> -->
+
+        <div class="books">
+            <div class="book1">
+            </div> 
+            <div class="book1">   
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
